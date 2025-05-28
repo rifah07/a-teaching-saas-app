@@ -1,6 +1,6 @@
 import CompanionCard from "@/components/CompanionCard";
 import CompanionsList from "@/components/CompanionsList";
-import CTA from "@/components/CTA"; //Call To Action
+import Cta from "@/components/Cta"; //Call To Action
 import { recentSessions } from "@/constants";
 
 const Page = () => {
@@ -40,7 +40,7 @@ const Page = () => {
           classNames="w-2/3
           max-lg:w-full"
         />
-        <CTA />
+        <Cta />
       </section>
     </main>
   );
