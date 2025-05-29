@@ -8,6 +8,7 @@
 7. npx shadcn@latest add form
 8. npx shadcn@latest add input textarea
 9. npx shadcn@latest add select
+10. npm install @clerk/nextjs
 
 
 
@@ -27,4 +28,5 @@
 10. Write codes that are needed in page.tsx and CompanionList and others.
 11. Then Install react hook form from shadCn, for that install 7th command above in terminal.
 12. Ass code in Companion Form.txt, app>companions>new>page.tsx.
-13. Install command 8, 9 in terminal.
+13. Install command 8, 9, 10 in terminal.
+14. 
