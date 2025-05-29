@@ -6,6 +6,8 @@
 5. npx shadcn@latest add button
 6. npx shadcn@latest add table
 7. npx shadcn@latest add form
+8. npx shadcn@latest add input textarea
+9. npx shadcn@latest add select
 
 
 
@@ -24,3 +26,5 @@
 9. From [https://ui.shadcn.com/docs/components/table] this page you can copy and paste from the usage part to add in CompanionList.
 10. Write codes that are needed in page.tsx and CompanionList and others.
 11. Then Install react hook form from shadCn, for that install 7th command above in terminal.
+12. Ass code in Companion Form.txt, app>companions>new>page.tsx.
+13. Install command 8, 9 in terminal.
