@@ -5,6 +5,7 @@
 4. npx shadcn@latest init
 5. npx shadcn@latest add button
 6. npx shadcn@latest add table
+7. npx shadcn@latest add form
 
 
 
@@ -21,3 +22,5 @@
 7. Write code in CompanionCard and save.
 8. Go to terminal install using above 6 point.
 9. From [https://ui.shadcn.com/docs/components/table] this page you can copy and paste from the usage part to add in CompanionList.
+10. Write codes that are needed in page.tsx and CompanionList and others.
+11. Then Install react hook form from shadCn, for that install 7th command above in terminal.
