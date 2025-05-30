@@ -9,7 +9,7 @@
 8. npx shadcn@latest add input textarea
 9. npx shadcn@latest add select
 10. npm install @clerk/nextjs
-
+11. npm install @supabase/supabase-js
 
 
 
@@ -29,4 +29,4 @@
 11. Then Install react hook form from shadCn, for that install 7th command above in terminal.
 12. Ass code in Companion Form.txt, app>companions>new>page.tsx.
 13. Install command 8, 9, 10 in terminal.
-14. 
+14. Write codes, and set up supabase then install supabase using 11th point above in terminal.
