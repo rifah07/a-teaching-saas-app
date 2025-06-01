@@ -1,13 +1,17 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  typescript:{
-   // ignoreBuildErrors:true
+  typescript: {
+    // ignoreBuildErrors:true
   },
   eslint: {
-   // ignoreDuringBuilds:true
+    // ignoreDuringBuilds:true
   },
   /* config options here */
+
+  images: {
+    remotePatterns: [{ hostname: 'img.clerk.com' }]
+  }
 };
 
 export default nextConfig;
