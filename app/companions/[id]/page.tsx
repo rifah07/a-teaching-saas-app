@@ -9,12 +9,14 @@ interface CompanionSessionPageProps {
 
 const CompanionSession = async ({ params }: CompanionSessionPageProps) => {
   const { id } = await params;
-  const {name, subject, title, topic, duration} = await getCompanion(id);
+  const companion = await getCompanion(id);
   const user = await currentUser();
+
+  const { name, subject, title, topic, duration } = companion;
 
   if (!user) redirect("/sign-in");
 
-  if (!name) redirect("/companions");
+  if (!companion) redirect("/companions");
 
   return (
     <main>
@@ -34,12 +36,13 @@ const CompanionSession = async ({ params }: CompanionSessionPageProps) => {
           <div className="flex flex-col gap-2 ">
             <div className="flex items-center gap-2">
               <p className="font-bold text-2xl">{name}</p>
-              <div className="subject-badge max-sm:hidden">
-                {subject}
-              </div>
+              <div className="subject-badge max-sm:hidden">{subject}</div>
             </div>
             <p className="text-lg ">{topic}</p>
           </div>
+        </div>
+        <div className="items-start text-2xl max-md:hidden">
+          {duration} minutes
         </div>
       </article>
     </main>
