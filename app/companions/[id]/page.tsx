@@ -13,7 +13,7 @@ const CompanionSession = async ({ params }: CompanionSessionPageProps) => {
   const companion = await getCompanion(id);
   const user = await currentUser();
 
-  const { name, subject, topic, duration } = companion;  //title isn't needed now
+  const { name, subject, topic, duration } = companion; //title isn't needed now
 
   if (!user) redirect("/sign-in");
 
@@ -46,7 +46,12 @@ const CompanionSession = async ({ params }: CompanionSessionPageProps) => {
           {duration} minutes
         </div>
       </article>
-      <CompanionComponent />
+      <CompanionComponent
+        {...companion}
+        companionId={id}
+        userName={user.firstName!}
+        userImage={user.imageUrl!}
+      />
     </main>
   );
 };
