@@ -11,6 +11,7 @@
 10. npm install @clerk/nextjs
 11. npm install @supabase/supabase-js
 12. npm i @jsmastery/utils
+13. npm install @vapi-ai/web
 
 
 
@@ -31,4 +32,5 @@
 12. Ass code in Companion Form.txt, app>companions>new>page.tsx.
 13. Install command 8, 9, 10 in terminal.
 14. Write codes, and set up supabase then install supabase using 11th point above in terminal.
-15. Write codes in files, and install codes using point 12 above for proper management of search parameters
+15. Write codes in files, and install codes using point 12 above for proper management of search parameters.
+16. Install vapi using point 13 above.
