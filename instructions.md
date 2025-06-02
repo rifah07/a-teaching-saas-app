@@ -14,6 +14,7 @@
 13. npm install @vapi-ai/web
 14. npm install lottie-react
 15. npx shadcn@latest add accordion
+16. npm install @opentelemetry/core
 
 
 
@@ -36,3 +37,4 @@
 16. Install vapi using point 13 above.
 17. Install lottie (for sound animation) using 14 point above
 18. Install shadcn accordion by point 15 above
+19. If there is dependency error, install package using point 16 above
