@@ -12,8 +12,7 @@
 11. npm install @supabase/supabase-js
 12. npm i @jsmastery/utils
 13. npm install @vapi-ai/web
-
-
+14. npm install lottie-react
 
 
 
@@ -34,3 +33,4 @@
 14. Write codes, and set up supabase then install supabase using 11th point above in terminal.
 15. Write codes in files, and install codes using point 12 above for proper management of search parameters.
 16. Install vapi using point 13 above.
+17. Install lottie (for sound animation) using 14 point above
