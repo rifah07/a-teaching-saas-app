@@ -213,7 +213,7 @@ const CompanionComponent = ({
           })}
         </div>
 
-        <div className="transcript-fade" />
+        {/* <div className="transcript-fade" /> */}
       </section>
     </section>
   );
