@@ -1,6 +1,6 @@
 import CompanionCard from "@/components/CompanionCard";
 import CompanionsList from "@/components/CompanionsList";
-import Cta from "@/components/Cta"; //Call To Action
+import CallToAction from "@/components/CallToAction"; //Call To Action
 //import { recentSessions } from "@/constants";
 import {
   getAllCompanions,
@@ -30,7 +30,7 @@ const Page = async () => {
           classNames="w-2/3
           max-lg:w-full"
         />
-        <Cta />
+        <CallToAction />
       </section>
     </main>
   );
